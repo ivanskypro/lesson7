@@ -3,7 +3,7 @@ package ru.pro.sky;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Задание №1");
+        System.out.println("Задание №1 ");
         String firstName = "Ivan" + " ";
         String middleName = "Ivanovich";
         String secondName = "Ivanov" + " ";
@@ -12,17 +12,17 @@ public class Main {
         System.out.println("ФИО сотрудника — " + fullName);
         System.out.println();
 
-        System.out.println("Задание №2");
+        System.out.println("Задание №2 ");
         fullName = fullName.toUpperCase();
         System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName);
         System.out.println();
 
-        System.out.println("Задание №3");
+        System.out.println("Задание №3 ");
         fullName = fullName.replace(" ", ";");
         System.out.println("Данные ФИО сотрудника для административного отдела " + fullName);
         System.out.println();
 
-        System.out.println("Задание №4");
+        System.out.println("Задание №4 ");
         fullName = "Иванов Семён Семёнович";
         fullName = fullName.replace("ё", "е");
         System.out.println("Данные ФИО сотрудника — " + fullName);
